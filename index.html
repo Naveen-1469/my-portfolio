@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.jpeg" alt="spotify" />spotify</li>
+        <div class="input"><input type="text" placeholder="Search" /></div>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Information</li>
+        <li>Blog</li>
+        <li>More</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>Best of NCS - Copyrights Sounds</h1>
+
+        <div class="songItemcontainer">
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songName">Jogi</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="1" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/2.jpg" alt="1" />
+            <span class="songName">Aavan-Jaavan</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="2" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/3.jpg" alt="1" />
+            <span class="songName">Alfa-Suave</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="3" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/4.jpg" alt="1" />
+            <span class="songName">Gud Naal Iahq Mitha</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="4" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/5.jpg" alt="1" />
+            <span class="songName">Ishare</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="5" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/6.jpg" alt="1" />
+            <span class="songName">Kashish</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="6" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/7.jpg" alt="1" />
+            <span class="songName">Rangisari</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="7" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/8.jpg" alt="1" />
+            <span class="songName">Shakini</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="8" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/9.jpg" alt="1" />
+            <span class="songName">Subhanallah</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="9" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="covers/10.jpg" alt="1" />
+            <span class="songName">Tu Hi Tu</span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span
+              ><i id="10" class="fa-2x songItemPlay fa-solid fa-play-circle"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myprogressbar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="fa-3x fa-solid fa-step-backward" id="previous"></i>
+        <i class="fa-3x fa-solid fa-play-circle" id="masterplay"></i>
+        <i class="fa-3x fa-solid fa-step-forward" id="next"></i>
+      </div>
+      <div class="songinfo">
+        <img src="musically-beats.gif" width="42px" alt="" id="gif" /><span
+          id="masterSongName"
+          >Jogi</span
+        >
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-image: url("/covers/spotifyback.jpg");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "ubuntu", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: white;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+.songName {
+  font-size: 20px;
+  padding-top: 1px;
+}
+.input input {
+  width: 230px;
+  height: 25px;
+  padding: 0 0 0 20px;
+  border-radius: 8px;
+  border: 6px inset #c6c6c6;
+}
+li:hover {
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url(/covers/spotify-music-red.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  /* https://grabient.com/LQJgdArAjCA0kAYrwgZgBwoCwHZ44DYF4CRkwy8xUDV4oBOPY8BBrWLMKdB2YqGATD4IdHARA */
+
+  background: linear-gradient(
+    90deg,
+    #00ffc4 0%,
+    #00ffbc 16.667%,
+    #00ffb3 33.333%,
+    #00f6aa 50%,
+    #00e5a1 66.667%,
+    #00d398 83.333%,
+    #00c08f 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#masterSongName {
+  font-size: 20px;
+}
+
+.icons {
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+#myprogressbar {
+  width: 80vw;
+  text-align: center;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  border-radius: 34px;
+  text-align: center;
+  align-items: center;
+}
+
+.songItem img {
+  width: 40px;
+  margin: 0 23px;
+  border-radius: 30px;
+  height: 40px;
+  margin-top: 6px;
+}
+.songlist h1 {
+  font-size: 35px;
+  height: 10px;
+  color: black;
+  font-weight: revert-layer;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songItemcontainer {
+  margin-top: 75px;
+}
+
+.songinfo {
+  position: absolute;
+  left: 10vw;
+}
+
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.4s is ease-in;
+}
